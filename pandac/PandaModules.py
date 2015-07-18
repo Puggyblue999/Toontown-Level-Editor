@@ -41,7 +41,7 @@ except ImportError, err:
         raise
 
 try:
-    from libtoontownModules import *
+    from libpandadnaModules import *
 except ImportError, err:
     if 'DLL loader cannot find' not in str(err):
         raise
